@@ -29,10 +29,10 @@ const Body = () => {
     // const dataNew = await data.json();
 
     setFilteredRestuarants(
-      data?.data.cards[2].card.card.gridElements.infoWithStyle.restaurants
+      data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
     setListOfRestuarants(
-      data?.data.cards[2].card.card.gridElements.infoWithStyle.restaurants
+      data?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
   };
 
